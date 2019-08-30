@@ -1,7 +1,14 @@
 package TelloAPI;
 
-import java.io.*;
-import java.net.*;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+
+//import java.io.*;
+//import java.net.*;
 
 public class UDPServer {
 	int port = 8889;
